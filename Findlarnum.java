@@ -14,13 +14,13 @@ public class Findlarnum {
         int num3 = sc.nextInt();
 
         if (num1> num2 && num1 > num3) {
-            System.out.print(+ num1 +"is largest  than "+num2+ "and"+num3);
+            System.out.print(+ num1 +" is largest  than "+num2+ "and"+num3);
             
         }else if(num2 > num1 && num2 > num3){
-            System.out.print(+ num2 +"is largest  than "+num1+ "and"+num3);
+            System.out.print(+ num2 +" is largest  than "+num1+ "and"+num3);
         } 
         else {
-            System.out.print(+ num3 +"is largest  than "+num1+ "and"+num2);
+            System.out.print(+ num3 +" is largest  than "+num1+ "and"+num2);
   
                 }
         sc.close();
